@@ -52,18 +52,37 @@
         </div>
     </section>
     <section class="especialidades">
-        <h2 class="title">Especialidades</h2>
         <div class="center">
+            <h2 class="title">Especialidades</h2>
             <div class="box-especialidade">
                 <h3>Icone 1</h3>
                 <h3>CSS3</h3>
                 <p>Texto para a especialidade</p>
                 <h3>Icone 2</h3>
-                <h3>HTML</h3>
+                <h3>HTML5</h3>
                 <p>Texto para a especialidade</p>
                 <h3>Icone 2</h3>
                 <h3>JavaScript</h3>
                 <p>Texto para a especialidade</p>
+            </div>
+        </div>
+    </section>
+    <section class="extras">
+        <div class="center">
+            <div class="w50">
+                <h2 class="title">Depoimentos</h2>
+                <div class="depoimento-single">
+                    <p class="depoimento-descricao">Texto de depoimento do cliente</p>
+                    <p class="depoimento-autor">Nome do autor</p>
+                </div>
+                <div class="depoimento-single">
+                    <p class="depoimento-descricao">Texto de depoimento do cliente</p>
+                    <p class="depoimento-autor">Nome do autor</p>
+                </div>
+                <div class="depoimento-single">
+                    <p class="depoimento-descricao">Texto de depoimento do cliente</p>
+                    <p class="depoimento-autor">Nome do autor</p>
+                </div>
             </div>
         </div>
     </section>

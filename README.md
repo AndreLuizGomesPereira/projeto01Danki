@@ -4,3 +4,5 @@
 - Segunda criar uma seção.
 - Tags input para inserir o e-mail.
 - Adicionado outra seção para inserir imagem.
+- Adicionado seção para inserir icones no Fontawesome.
+- Seção para area de depoimentos de clientes.
