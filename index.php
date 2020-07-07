@@ -28,6 +28,13 @@
             </ul>
         </nav>
     </header>
+    <section class="banner-principal">
+        <form>
+            <h2>Qual seu melhor e-mail?</h2>
+            <input type="email" name="email" required>
+            <input type="submit" name="acao" value="Cadastrar!" required>
+        </form>
+    </section>
 
 </body>
 
