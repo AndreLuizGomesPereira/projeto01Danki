@@ -36,6 +36,16 @@
         </form>
     </section>
 
+    <section class="descricao-autor">
+        <div class="w50">
+            <h2>André Luiz Gomes Pereira</h2>
+            <p>Texto para a Biografia</p>
+        </div>
+        <div class="w50">
+            <img src="img/perfil.jpg" alt="André Luiz">
+        </div>
+    </section>
+
 </body>
 
 </html>
