@@ -73,19 +73,34 @@
                 <h2 class="title">Depoimentos</h2>
                 <div class="depoimento-single">
                     <p class="depoimento-descricao">Texto de depoimento do cliente</p>
-                    <p class="depoimento-autor">Nome do autor</p>
+                    <p class="nome-autor">Nome do autor</p>
                 </div>
                 <div class="depoimento-single">
                     <p class="depoimento-descricao">Texto de depoimento do cliente</p>
-                    <p class="depoimento-autor">Nome do autor</p>
+                    <p class="nome-autor">Nome do autor</p>
                 </div>
                 <div class="depoimento-single">
                     <p class="depoimento-descricao">Texto de depoimento do cliente</p>
-                    <p class="depoimento-autor">Nome do autor</p>
+                    <p class="nome-autor">Nome do autor</p>
+                </div>
+            </div>
+            <div class="w50">
+                <h2 class="title">Serviços</h2>
+                <div class="servicos">
+                    <ul>
+                        <li>Lista de serviços</li>
+                        <li>Lista de serviços</li>
+                        <li>Lista de serviços</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
+    <footer>
+        <div class="center">
+            <p>Todos os direitos reservados</p>
+        </div>
+    </footer>
 
 </body>
 

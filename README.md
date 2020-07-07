@@ -6,3 +6,4 @@
 - Adicionado outra seção para inserir imagem.
 - Adicionado seção para inserir icones no Fontawesome.
 - Seção para area de depoimentos de clientes.
+- Adicionado a tag Footer.
