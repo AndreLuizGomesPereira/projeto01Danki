@@ -7,3 +7,4 @@
 - Adicionado seção para inserir icones no Fontawesome.
 - Seção para area de depoimentos de clientes.
 - Adicionado a tag Footer.
+- Adicionado CSS FontAwesome.
