@@ -3,6 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans: 400, 700">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Descrição de sistema PHP">
     <title>Projeto - PHP</title>
@@ -55,13 +59,13 @@
         <div class="center">
             <h2 class="title">Especialidades</h2>
             <div class="box-especialidade">
-                <h3>Icone 1</h3>
+                <h3><i class="fab fa-css3-alt"></i></h3>
                 <h3>CSS3</h3>
                 <p>Texto para a especialidade</p>
-                <h3>Icone 2</h3>
+                <h3><i class="fab fa-html5"></i></h3>
                 <h3>HTML5</h3>
                 <p>Texto para a especialidade</p>
-                <h3>Icone 2</h3>
+                <h3><i class="fab fa-js-square"></i></h3>
                 <h3>JavaScript</h3>
                 <p>Texto para a especialidade</p>
             </div>
