@@ -46,13 +46,14 @@
 
     <section class="descricao-autor">
         <div class="center">
-            <div class="w50">
+            <div class="w50 left">
                 <h2>André Luiz Gomes Pereira</h2>
-                <p>Texto para a Biografia</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
-            <div class="w50">
+            <div class="w50 left">
                 <img src="img/perfil.jpg" alt="André Luiz">
             </div>
+            <div class="clear"></div>
         </div>
     </section>
     <section class="especialidades">
@@ -73,22 +74,22 @@
     </section>
     <section class="extras">
         <div class="center">
-            <div class="w50">
+            <div class="w50 left">
                 <h2 class="title">Depoimentos</h2>
                 <div class="depoimento-single">
-                    <p class="depoimento-descricao">Texto de depoimento do cliente</p>
+                    <p class="depoimento-descricao">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     <p class="nome-autor">Nome do autor</p>
                 </div>
                 <div class="depoimento-single">
-                    <p class="depoimento-descricao">Texto de depoimento do cliente</p>
+                    <p class="depoimento-descricao">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     <p class="nome-autor">Nome do autor</p>
                 </div>
                 <div class="depoimento-single">
-                    <p class="depoimento-descricao">Texto de depoimento do cliente</p>
+                    <p class="depoimento-descricao">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     <p class="nome-autor">Nome do autor</p>
                 </div>
             </div>
-            <div class="w50">
+            <div class="w50 left">
                 <h2 class="title">Serviços</h2>
                 <div class="servicos">
                     <ul>
@@ -98,6 +99,7 @@
                     </ul>
                 </div>
             </div>
+            <div class="clear"></div>
         </div>
     </section>
     <footer>
