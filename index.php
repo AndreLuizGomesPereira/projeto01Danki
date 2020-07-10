@@ -37,9 +37,9 @@
         </div>
     </header>
     <section class="banner-principal">
+        <div class="overlay"></div>
         <div class="center">
             <form>
-
                 <h2>Qual seu melhor e-mail?</h2>
                 <input type="email" name="email" required>
                 <input type="submit" name="acao" value="Cadastrar!" required>

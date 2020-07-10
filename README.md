@@ -8,3 +8,4 @@
 - Seção para area de depoimentos de clientes.
 - Adicionado a tag Footer.
 - Adicionado CSS FontAwesome.
+- Utilizado Favicon.
