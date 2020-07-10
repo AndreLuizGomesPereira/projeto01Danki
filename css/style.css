@@ -10,6 +10,7 @@
 .center{
     max-width: 1280px;
     padding: 0 2%;
+    margin: 0 auto;
 }
 
 .w33 {
@@ -30,4 +31,9 @@
 
 .clear{
     clear: both;
+}
+
+/* Estilização do site */
+header {
+    background: #3d437a;
 }
