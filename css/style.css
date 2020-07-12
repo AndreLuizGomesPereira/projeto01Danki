@@ -120,3 +120,19 @@ section.banner-principal form input[type="submit"] {
   cursor: pointer;
   border: 0;
 }
+
+section.descricao-autor {
+  padding: 30px 0;
+}
+
+section.descricao-autor h2 {
+  font-size: 25px;
+  font-weight: 400;
+  color: #444;
+}
+
+section.descricao-autor p {
+  font-size: 16px;
+  color: #444;
+  margin-top: 200px;
+}
