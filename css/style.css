@@ -6,6 +6,7 @@
 }
 img {
   width: 100%;
+  max-width: 400px;
 }
 
 .center {
@@ -155,19 +156,22 @@ section.descricao-autor p {
     color: white;
   }
   nav.mobile ul {
-    display: block;
+    display: none;
     left: 0;
     top: 55px;
     position: absolute;
     z-index: 3;
     text-align: center;
+    width: 100%;
   }
   nav.mobile li {
     width: 100%;
-    font-size: 15px;
+    font-size: 17px;
     display: block;
     background: white;
     border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+    font-weight: 300;
 
   }
   nav.mobile a{
@@ -182,7 +186,6 @@ section.descricao-autor p {
     float: none !important;
     display: block;
     margin: 0 auto;
-    max-width: 500px;
   }
   .w50 {
     width: 100%;
