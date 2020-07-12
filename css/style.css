@@ -139,7 +139,7 @@ section.descricao-autor h2 {
 section.descricao-autor p {
   font-size: 16px;
   color: #444;
-  margin-top: 200px;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 700px) {
@@ -149,11 +149,31 @@ section.descricao-autor p {
   nav.mobile {
     display: block;
   }
-  .botao-menu-mobile{
+  .botao-menu-mobile {
     font-size: 24px;
+    cursor: pointer;
+    color: white;
   }
   nav.mobile ul {
-    display: none;
+    display: block;
+    left: 0;
+    top: 55px;
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+  }
+  nav.mobile li {
+    width: 100%;
+    font-size: 15px;
+    display: block;
+    background: white;
+    border-bottom: 1px solid #ccc;
+
+  }
+  nav.mobile a{
+    display: block;
+    color: #444;
+    text-decoration: none;
   }
 }
 
