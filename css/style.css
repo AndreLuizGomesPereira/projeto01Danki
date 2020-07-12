@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family: "Open Sans";
 }
+img {
+  width: 100%;
+}
+
 .center {
   max-width: 1280px;
   padding: 0 2%;
@@ -15,6 +19,7 @@
 }
 
 .w50 {
+  padding: 0 10px;
   width: 50%;
 }
 
@@ -135,4 +140,16 @@ section.descricao-autor p {
   font-size: 16px;
   color: #444;
   margin-top: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  img{
+    display: block;
+    margin: 0 auto;
+    max-width: ;
+  }
+  .w50{
+    width: 100%;
+  padding: 20px;
+  }
 }
