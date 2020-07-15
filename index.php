@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/fontawesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style/all.css">
+    <link rel="stylesheet" href="style/fontawesome.min.css">
+    <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300, 400, 700">
     <link rel="shortcut icon" href="img/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
 <body>
     <header>
         <div class="center">
-            <div class="logo left">AleSYS</div>
+            <div class="logo left"><a href="/">AleSYS</a></div>
             <nav class="desktop right">
                 <ul>
                     <li><a href="#">Home</a></li>
