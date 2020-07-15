@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="img/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Descrição de sistema PHP">
-    <title>Projeto - PHP</title>
+    <title>Protótipo - PHP</title>
 </head>
 
 <body>
@@ -115,7 +115,8 @@
             <p>AleSYS - Todos os direitos reservados</p>
         </div>
     </footer>
-
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
