@@ -9,3 +9,4 @@
 - Adicionado a tag Footer.
 - Adicionado CSS FontAwesome.
 - Utilizado Favicon.
+- Instalado biblioteca Jquery.
