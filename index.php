@@ -115,8 +115,8 @@
             <p>AleSYS - Todos os direitos reservados</p>
         </div>
     </footer>
-    <script src="js/jquery.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/scripts.js"></script>
 </body>
 
 </html>
