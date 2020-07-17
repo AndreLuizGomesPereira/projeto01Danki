@@ -25,8 +25,8 @@ include('config.php');
             <div class="logo left"><a href="https://github.com/AndreLuizGomesPereira/projeto01Danki">AleSYS</a></div>
             <nav class="desktop right">
                 <ul>
-                    <li><a href="<?php echo INCLUDE_PATH; ?>home">Home</a></li>
-                    <li><a href="<?php echo INCLUDE_PATH; ?>sobre">Sobre</a></li>
+                    <li><a href="home">Home</a></li>
+                    <li><a href="sobre">Sobre</a></li>
                     <li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
                     <li><a href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
                 </ul>
