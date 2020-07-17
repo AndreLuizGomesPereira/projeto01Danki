@@ -1,3 +1,9 @@
+<?php
+include('config.php');
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -5,7 +11,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style/all.css">
     <link rel="stylesheet" href="style/fontawesome.min.css">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>style/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300, 400, 700">
     <link rel="shortcut icon" href="img/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,19 +25,19 @@
             <div class="logo left"><a href="/">AleSYS</a></div>
             <nav class="desktop right">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>home">Home</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>sobre">Sobre</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
                 </ul>
             </nav>
             <nav class="mobile right">
                 <div class="botao-menu-mobile"><i class="fas fa-bars"></i></div>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>home">Home</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>sobre">Sobre</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
                 </ul>
             </nav>
             <div class="clear"></div>
