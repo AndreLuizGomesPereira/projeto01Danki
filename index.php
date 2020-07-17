@@ -9,8 +9,8 @@ include('config.php');
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style/all.css">
-    <link rel="stylesheet" href="style/fontawesome.min.css">
+    <link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>style/all.css">
+    <link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>style/fontawesome.min.css">
     <link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>style/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300, 400, 700">
     <link rel="shortcut icon" href="<?php echo INCLUDE_PATH; ?>img/favicon.png" />
@@ -22,7 +22,7 @@ include('config.php');
 <body>
     <header>
         <div class="center">
-            <div class="logo left"><a href="/">AleSYS</a></div>
+            <div class="logo left"><a href="https://github.com/AndreLuizGomesPereira/projeto01Danki">AleSYS</a></div>
             <nav class="desktop right">
                 <ul>
                     <li><a href="<?php echo INCLUDE_PATH; ?>home">Home</a></li>
@@ -57,8 +57,8 @@ include('config.php');
             <p>AleSYS - Todos os direitos reservados</p>
         </div>
     </footer>
-    <script src="js/jquery.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="<?php echo INCLUDE_PATH; ?>js/jquery.js"></script>
+    <script src="<?php echo INCLUDE_PATH; ?>js/scripts.js"></script>
 </body>
 
 </html>
