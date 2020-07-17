@@ -57,8 +57,8 @@ include('config.php');
             <p>AleSYS - Todos os direitos reservados</p>
         </div>
     </footer>
-    <script src="<?php echo INCLUDE_PATH; ?>js/jquery.js"></script>
-    <script src="<?php echo INCLUDE_PATH; ?>js/scripts.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
