@@ -10,7 +10,8 @@
             <div></div>
             <input type="text" name="celular" placeholder="Telefone/Celular">
             <div></div>
-            <textarea name="mensagem"></textarea>
+            <textarea name="mensagem" placeholder="Sua mensagem aqui..."></textarea>
+            <div></div>
             <input type="submit" name="acao" value="Salvar Dados">
         </form>
     </div>

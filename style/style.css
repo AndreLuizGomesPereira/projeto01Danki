@@ -270,13 +270,22 @@ footer.fixed {
 }
 
 .contato-container textarea {
+  padding: 8px;
   margin: 8px 0;
-  max-width: 500px;
+  max-width: 700px;
   width: 100%;
   height: 120px;
   padding-left: 8px;
   font-size: 16px;
   color: #444;
+  resize: vertical;
+}
+
+.contato-container input[type=submit] {
+  background: #00c59e;
+  width: 140px;
+  height: 40px;
+  color: white;
 }
 
 @media screen and (max-width: 768px) {
