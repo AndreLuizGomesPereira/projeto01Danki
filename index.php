@@ -46,19 +46,24 @@ include('config.php');
     <?php
     $url = isset($_GET['url']) ? $_GET['url'] : 'home';
     if (file_exists('pages/' . $url . '.php')) {
-        include('pages/'.$url.'.php');
-    }else{
+        include('pages/' . $url . '.php');
+    } else {
+        $pagina404 = true;
         include('pages/404.php');
     }
 
     ?>
-    <footer>
+    <footer <?php if (isset($pagina404) && $pagina404 == true) echo 'class="fixed";' ?>>
         <div class="center">
             <p>AleSYS - Todos os direitos reservados</p>
         </div>
     </footer>
     <script src="js/jquery.js"></script>
     <script src="js/scripts.js"></script>
+    <?php if ($url == 'contato') { ?>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDHPNQxozOzQSZ-djvWGOBUoT_qH4"></script>
+        <script src="js/map.js"></script>
+    <?php  } ?>
 </body>
 
 </html>
