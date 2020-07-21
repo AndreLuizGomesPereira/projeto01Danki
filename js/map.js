@@ -53,5 +53,5 @@ $(function () {
     }
 
     initialize();
-    addMarker(-17.5630316, -39.7399767, '', "My Home", false, true);
+    addMarker(-17.5630316, -39.7399767, '', "My Home", undefined, false);
 })
