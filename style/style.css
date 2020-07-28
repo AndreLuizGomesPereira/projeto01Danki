@@ -4,6 +4,16 @@
   box-sizing: border-box;
   font-family: "Open Sans";
 }
+
+html,
+body {
+  height: 100%;
+}
+
+input {
+  border: 0;
+}
+
 img {
   width: 100%;
   max-width: 250px;
@@ -281,7 +291,7 @@ footer.fixed {
   resize: vertical;
 }
 
-.contato-container input[type=submit] {
+.contato-container input[type="submit"] {
   background: #00c59e;
   width: 140px;
   height: 40px;
