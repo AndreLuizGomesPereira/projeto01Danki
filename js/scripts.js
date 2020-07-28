@@ -16,11 +16,4 @@ $(function () {
             listaMenu.slideToggle();
         }
     });
-
-    if ($('target').lenght > 0) {
-        // O elemento existe , portanto precisamos dar o scroll em algum elemento.banner-principal
-        var elemento = '#' + $('target').attr('target');
-        var divScroll = $(elemento).offset().top;
-        $('html, body').animate({ scrollTop: divScroll }, 1500);
-    }
 })

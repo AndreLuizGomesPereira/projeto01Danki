@@ -39,8 +39,8 @@ include('config.php');
             <nav class="desktop right">
                 <ul>
                     <li><a href="home">Home</a></li>
-                    <li><a href="depoimentos">Depoimentos</a></li>
-                    <li><a href="servicos">Serviços</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
                     <li><a href="contato">Contato</a></li>
                 </ul>
             </nav>
@@ -48,8 +48,8 @@ include('config.php');
                 <div class="botao-menu-mobile"><i class="fas fa-bars"></i></div>
                 <ul>
                     <li><a href="home">Home</a></li>
-                    <li><a href="depoimentos">Depoimentos</a></li>
-                    <li><a href="servicos">Serviços</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
                     <li><a href="contato">Contato</a></li>
                 </ul>
             </nav>
