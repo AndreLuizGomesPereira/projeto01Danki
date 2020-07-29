@@ -16,7 +16,7 @@ include('config.php');
     <link rel="shortcut icon" href="img/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Descrição de sistema PHP">
-    <title>Protótipo - PHP</title>
+    <title>AleSYS - Serviços de Tecnologia</title>
 </head>
 
 <body>
@@ -76,6 +76,9 @@ include('config.php');
     </footer>
     <script src="js/jquery.js"></script>
     <script src="js/scripts.js"></script>
+    <?php if ($url == 'home' || $url == '') { ?>
+        <script src="js/slider.js"></script>
+    <?php  } ?>
     <?php if ($url == 'contato') { ?>
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDHPNQxozOzQSZ-djvWGOBUoT_qH4"></script>
         <script src="js/map.js"></script>
