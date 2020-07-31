@@ -1,4 +1,6 @@
 <?php
+
+
 include('config.php');
 ?>
 
@@ -31,7 +33,6 @@ include('config.php');
             break;
     }
     ?>
-
 
     <header>
         <div class="center">

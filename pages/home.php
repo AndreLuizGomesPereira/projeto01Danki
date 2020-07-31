@@ -4,13 +4,6 @@
     <div class="banner-single" style="background-image: url('img/banner3.jpg'); "></div>
     <div class="banner-single" style="background-image: url('img/banner4.jpg'); "></div>
     <div class="overlay"></div>
-    <div class="center">
-        <form>
-            <h2>Qual seu melhor e-mail?</h2>
-            <input type="email" name="email" required>
-            <input type="submit" name="acao" value="Cadastrar!" required>
-        </form>
-    </div>
     <div class="bullets">
     <span class="active-slider"></span>  
     </div>
