@@ -11,6 +11,9 @@
             <input type="submit" name="acao" value="Cadastrar!" required>
         </form>
     </div>
+    <div class="bullets">
+    <span class="active-slider"></span>  
+    </div>
 </section>
 <section class="descricao-autor">
     <div class="center">
